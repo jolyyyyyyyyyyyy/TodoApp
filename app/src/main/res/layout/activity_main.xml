@@ -126,19 +126,20 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
-        android:layout_width="309dp"
-        android:layout_height="70dp"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
         android:backgroundTint="@color/yellow"
         android:fontFamily="@font/poppins_700"
         android:text="@string/sign_in"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="22sp"
-        app:cornerRadius="10dp" />
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/textView4"
